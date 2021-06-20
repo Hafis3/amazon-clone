@@ -9,42 +9,48 @@ function Home() {
         <img src="images/home.jpg" alt="" className="home__image" />
         <div className="home__row">
           <Product
+            Id={new Date()}
             title="lean startup"
-            price={29.33}
-            image='https://images-eu.ssl-images-amazon.com/images/I/41jJOGDStyL._AC_SX184_.jpg'
+            price={129.33}
+            image="https://images-eu.ssl-images-amazon.com/images/I/41jJOGDStyL._AC_SX184_.jpg"
             rating={5}
           />
           <Product
+            Id={new Date()}
             title="lean startup"
-            price={29.33}
-            image='https://images-eu.ssl-images-amazon.com/images/I/41TvI1T+UPL._AC_SX184_.jpg'
-            rating={5}
+            price={325.63}
+            image="https://images-eu.ssl-images-amazon.com/images/I/41TvI1T+UPL._AC_SX184_.jpg"
+            rating={3}
           />
         </div>
         <div className="home__row">
           <Product
+            Id={new Date()}
             title="lean startup"
-            price={29.33}
+            price={229.78}
             image="https://images-eu.ssl-images-amazon.com/images/I/310SFmsC9RL._AC_SX184_.jpg"
-            rating={5}
+            rating={1}
           />
           <Product
+            Id={new Date()}
             title="lean startup"
-            price={29.33}
+            price={529.24}
             image="https://images-eu.ssl-images-amazon.com/images/I/41w3+eO6BuL._AC_SX184_.jpg"
-            rating={5}
+            rating={4}
           />
           <Product
+            Id={new Date()}
             title="lean startup"
-            price={29.33}
+            price={1229.83}
             image="https://images-eu.ssl-images-amazon.com/images/I/51lUOfAUQ5L._AC_SX184_.jpg"
             rating={5}
           />
         </div>
         <div className="home__row">
           <Product
+            Id={new Date()}
             title="lean startup"
-            price={29.33}
+            price={2259.73}
             image="https://images-eu.ssl-images-amazon.com/images/I/31JPZAFX5bL._AC_SX184_.jpg"
             rating={5}
           />
