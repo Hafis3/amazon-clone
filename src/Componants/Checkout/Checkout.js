@@ -5,12 +5,13 @@ import { useStateValue } from "../../StateProvider";
 import "./Checkout.css";
 
 function Checkout() {
-  const [{ basket }] = useStateValue();
+  const [{ basket, user }] = useStateValue();
   return (
     <div className="checkout">
       <div className="checkout__left">
         <img src="images/banner.jpg" alt="" className="checkOut__ad" />
         <div>
+          <h3>Hellow , {user?.email} </h3>
           <h2 className="checkout__title">Your Shopping Basket</h2>
           {basket?.map((item) => (
             <CheckoutProduct
